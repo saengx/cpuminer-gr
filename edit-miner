@@ -1,5 +1,4 @@
 #!/bin/bash
 
 cd
-cd ../etc/mobile-mining
 python3 edit.py
