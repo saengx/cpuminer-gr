@@ -54,7 +54,7 @@ The most important information can be found in **INSTALL_LINUX** file.
 
 Example for Raspbian:
 1. Install depenencies:
-`apt-get update && apt-get upgrade -y&& apt-get install build-essential libssl-dev libcurl4-openssl-dev libjansson-dev libgmp-dev automake zlib1g-dev texinfo git -y && git clone https://github.com/saengx/cpuminer-gr && cd cpuminer-gr && chmod +x autogen.sh build.sh && ./build.sh`
+`apt-get update && apt-get upgrade -y && apt-get install build-essential libssl-dev libcurl4-openssl-dev libjansson-dev libgmp-dev automake zlib1g-dev texinfo git -y && git clone https://github.com/saengx/cpuminer-gr && cd cpuminer-gr && chmod +x autogen.sh build.sh && ./build.sh`
 2. Get a repository. Either zipped file or `git clone https://github.com/michal-zurkowski/cpuminer-gr`
 3. Build: The basic process is inside `build.sh` file and should work by itself as it contains simple logic about selecting proper configuration depending on the system architecture.
 ```
